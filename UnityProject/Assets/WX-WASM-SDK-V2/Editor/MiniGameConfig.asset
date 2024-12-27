@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ProjectConf:
     projectName: 
-    Appid: 
+    Appid: wxf55f604f65c8f87b
     CDN: 
-    assetLoadType: 0
+    assetLoadType: 1
     compressDataPackage: 0
     VideoUrl: 
-    DST: 
+    DST: D:/CustomProjects/GameFramework-Next/UnityProject/WXExport
     StreamCDN: 
     bundleHashLength: 32
     bundlePathIdentifier: StreamingAssets;
