@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "cn.unity.uos.cdn": "https://e.coding.net/unitychina/uos/UosCdnSDK.git",
+    "cn.unity.uos.launcher": "https://e.coding.net/unitychina/uos/UOSLauncher.git",
     "com.code-philosophy.hybridclr": "https://gitee.com/focus-creative-games/hybridclr_unity.git",
     "com.unity.ide.rider": "3.0.18",
     "com.unity.ide.visualstudio": "2.0.17",

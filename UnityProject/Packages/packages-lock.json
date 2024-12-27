@@ -1,5 +1,21 @@
 {
   "dependencies": {
+    "cn.unity.uos.cdn": {
+      "version": "https://e.coding.net/unitychina/uos/UosCdnSDK.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "4a296e521829f4b4b3fa857bb3fb8ffa966f3d2b"
+    },
+    "cn.unity.uos.launcher": {
+      "version": "https://e.coding.net/unitychina/uos/UOSLauncher.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      },
+      "hash": "f33c4461f67fdf07006c9fbb32cca8a37585e7b7"
+    },
     "com.code-philosophy.hybridclr": {
       "version": "https://gitee.com/focus-creative-games/hybridclr_unity.git",
       "depth": 0,
@@ -73,8 +89,8 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.nuget.newtonsoft-json": {
-      "version": "3.1.0",
-      "depth": 0,
+      "version": "3.2.1",
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
