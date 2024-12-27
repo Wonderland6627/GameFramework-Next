@@ -6,7 +6,7 @@ SpriteAtlas:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: UIRaw_Atlas_Common
+  m_Name: UIRaw_Atlas_Slime
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -68,24 +68,27 @@ SpriteAtlas:
     secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
-    - {fileID: 21300000, guid: f9a06e163014f4f46b14f4499d3e7240, type: 3}
-    - {fileID: 21300000, guid: 2761fc23b4aa7e34187ac5ffbc3fad9b, type: 3}
-    - {fileID: 21300000, guid: d623a2b7e069a4c4592d3da48f476189, type: 3}
-    - {fileID: 21300000, guid: 57e4117f4cd6ae54284898652e70d553, type: 3}
+    - {fileID: 21300000, guid: 91b54ad5ec43a944d923198ece1f3978, type: 3}
+    - {fileID: 21300000, guid: dc43eb02e7e0aae46943affb81536446, type: 3}
+    - {fileID: 21300000, guid: e396086991b48b644a7da28a58bb9f36, type: 3}
+    - {fileID: 21300000, guid: 8dda1c908c1d5e242831924d235f07bb, type: 3}
+    - {fileID: 21300000, guid: f2a1831df0b1de947b83efe4827ec66b, type: 3}
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
-  - {fileID: 21300000, guid: 2761fc23b4aa7e34187ac5ffbc3fad9b, type: 3}
-  - {fileID: 21300000, guid: f9a06e163014f4f46b14f4499d3e7240, type: 3}
-  - {fileID: 21300000, guid: d623a2b7e069a4c4592d3da48f476189, type: 3}
-  - {fileID: 21300000, guid: 57e4117f4cd6ae54284898652e70d553, type: 3}
+  - {fileID: 21300000, guid: 8dda1c908c1d5e242831924d235f07bb, type: 3}
+  - {fileID: 21300000, guid: dc43eb02e7e0aae46943affb81536446, type: 3}
+  - {fileID: 21300000, guid: 91b54ad5ec43a944d923198ece1f3978, type: 3}
+  - {fileID: 21300000, guid: e396086991b48b644a7da28a58bb9f36, type: 3}
+  - {fileID: 21300000, guid: f2a1831df0b1de947b83efe4827ec66b, type: 3}
   m_PackedSpriteNamesToIndex:
-  - red_button
-  - blue_button
-  - white_background
-  - white_button
+  - Slime_Blue
+  - Castle_Free
+  - Castle_Blue
+  - Castle_Red
+  - Slime_Red
   m_RenderDataMap: {}
-  m_Tag: UIRaw_Atlas_Common
+  m_Tag: UIRaw_Atlas_Slime
   m_IsVariant: 0
