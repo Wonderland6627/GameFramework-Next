@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: MiniGameConfig
   m_EditorClassIdentifier: 
   ProjectConf:
-    projectName: 
+    projectName: "\u53F2\u83B1\u59C6\u5DE5\u5382"
     Appid: wxf55f604f65c8f87b
     CDN: 
-    assetLoadType: 1
+    assetLoadType: 0
     compressDataPackage: 0
     VideoUrl: 
     DST: D:/CustomProjects/GameFramework-Next/UnityProject/WXExport
