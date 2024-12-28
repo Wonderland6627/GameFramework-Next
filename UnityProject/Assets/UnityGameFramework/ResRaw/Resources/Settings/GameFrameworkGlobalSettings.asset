@@ -21,7 +21,7 @@ MonoBehaviour:
       m_ResAdminCode: 0
       m_ServerType: 1
       m_CleanCommitPathRes: 1
-      m_InnerResourceSourceUrl: http://127.0.0.1:8081
+      m_InnerResourceSourceUrl: https://a.unity.cn/client_api/v1/buckets/7b1aca91-d967-4715-9087-fbd0c189f077/release_by_badge/webgl_test_badge/content/StreamingAssets/package/DefaultPackage
       m_ExtraResourceSourceUrl: http://127.0.0.1:8081
       m_FormalResourceSourceUrl: http://127.0.0.1:8081
     m_AtlasFolder: Assets/AssetRaw/Atlas
@@ -31,8 +31,52 @@ MonoBehaviour:
     AndroidAppUrl: http://127.0.0.1
     m_CurUseServerChannel: 
     m_ServerChannelInfos: []
+    namespace: GameLogic
+    m_PreLoadTags:
+    - PRELOAD
+    uiWidgetName: m_item
+    scriptGenerateRule:
+    - uiElementRegex: m_go
+      componentName: GameObject
+    - uiElementRegex: m_item
+      componentName: GameObject
+    - uiElementRegex: m_tf
+      componentName: Transform
+    - uiElementRegex: m_rect
+      componentName: RectTransform
+    - uiElementRegex: m_text
+      componentName: Text
+    - uiElementRegex: m_richText
+      componentName: RichTextItem
+    - uiElementRegex: m_btn
+      componentName: Button
+    - uiElementRegex: m_img
+      componentName: Image
+    - uiElementRegex: m_rimg
+      componentName: RawImage
+    - uiElementRegex: m_scrollBar
+      componentName: Scrollbar
+    - uiElementRegex: m_scroll
+      componentName: ScrollRect
+    - uiElementRegex: m_input
+      componentName: InputField
+    - uiElementRegex: m_grid
+      componentName: GridLayoutGroup
+    - uiElementRegex: m_hlay
+      componentName: HorizontalLayoutGroup
+    - uiElementRegex: m_vlay
+      componentName: VerticalLayoutGroup
+    - uiElementRegex: m_red
+      componentName: RedNoteBehaviour
+    - uiElementRegex: m_slider
+      componentName: Slider
+    - uiElementRegex: m_group
+      componentName: ToggleGroup
+    - uiElementRegex: m_curve
+      componentName: AnimationCurve
+    - uiElementRegex: m_canvasGroup
+      componentName: CanvasGroup
   m_HybridCLRCustomGlobalSettings:
-    m_Enable: 0
     HotUpdateAssemblies:
     - GameBase.dll
     - GameProto.dll
