@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using UnityGameFramework.Runtime;
 
 namespace GameFramework.Fsm
 {
@@ -572,6 +573,7 @@ namespace GameFramework.Fsm
                 throw new GameFrameworkException(Utility.Text.Format("FSM '{0}' can not change state to '{1}' which is not exist.", new TypeNamePair(typeof(T), Name), stateType.FullName));
             }
 
+            Log.Info("[FSM] change state from '{0}' to '{1}'.", m_CurrentState.GetType().FullName, stateType.FullName);
             m_CurrentState.OnLeave(this, false);
             m_CurrentStateTime = 0f;
             m_CurrentState = state;

@@ -34,6 +34,7 @@ public partial class GameApp: Singleton<GameApp>
     /// </summary>
     private void StartGameLogic()
     {
+        Log.Info("Start Game Logic Now");
         
     }
 
